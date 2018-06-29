@@ -24,9 +24,11 @@ Set-ExecutionPolicy Bypass -Scope Process
 
 3. Then, set the variables as needed. Example:
 
+~~~~
 $srcDir = "C:\srcDir"
 $destDir = "C:\destDir"
 mergePDFRecurse $srcDir $destDir
+~~~~
 
 Note that if $destDir does not exist, it will be created.
 

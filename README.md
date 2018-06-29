@@ -27,7 +27,7 @@ Set-ExecutionPolicy Bypass -Scope Process
 ~~~~
 $srcDir = "C:\srcDir"
 $destDir = "C:\destDir"
-mergePDFRecurse $srcDir $destDir
+MergePDFRecurse $srcDir $destDir
 ~~~~
 
 Note that if $destDir does not exist, it will be created.

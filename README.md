@@ -20,9 +20,12 @@ Usage
 2. Set to be allowed to run in PowerShell by first running the command below. This allows for scripts to be run in process scope.
 See http://9to5it.com/bypass-the-powershell-execution-policy/
 
-Set-ExecutionPolicy Bypass -Scope Process
+`Set-ExecutionPolicy Bypass -Scope Process`
 
-3. Then, set the variables as needed. Example:
+3. Load the module.
+
+
+4. Then, set the variables as needed. Example:
 
 ~~~~
 $srcDir = "C:\srcDir"

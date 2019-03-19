@@ -14,8 +14,8 @@ $PdfMergeModule = "cO.Pdfsharp"
 # 0) Set up the script - must change these before running on your system
 
 # ** change this to where you want the pdfs
-$PdfMergeModulePath = "C:\Users\USERNAME\Software\pdfMerge\cO.Pdfsharp.psm1"
-$PdfSharpPath = "C:\Users\USERNAME\Software\pdfMerge\PdfSharp-gdi.dll"
+$PdfMergeModulePath = "C:\Users\USERNAME\SOFTWARE\pdfMerge\cO.Pdfsharp.psm1"
+$PdfSharpPath = "C:\Users\USERNAME\SOFTWARE\pdfMerge\PdfSharp-gdi.dll"
 
 # ** change to where the source pdfs live
 $srcDir = "C:\Users\USERNAME\pdfSrc"

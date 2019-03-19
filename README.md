@@ -32,6 +32,8 @@ See http://9to5it.com/bypass-the-powershell-execution-policy/
 
 `Set-ExecutionPolicy Bypass -Scope Process`
 
+You may need to run PowerShell as Administrator for this to work.
+
 3. Load the module.
 
 

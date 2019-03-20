@@ -3,14 +3,17 @@ Merge PDFs under a directory using PowerShell, CoolOrange Module, and PDFSharp .
 
 Installation / Configuration
 ============================
-1. Download CoolOrange's MergePDF PowerShell module and accompanying PDFSharp DLL from:
+1. Download CoolOrange's PDFSharp DLL from:
 https://support.coolorange.com/support/solutions/articles/22000211000-how-to-merge-multiple-pdf-with-pdfsharp-and-powershell
+You will not need their cO.Pdfsharp.psm1 module (which provides the PdfMerge cmdlet)
+unless you do not want the enhancements of a footer and bookmarking.
 
-2. Modify the module to adjust the paths to where you installed the CoolOrange code.
+2. Modify this module and scripts to adjust the paths to where you installed the CoolOrange code.
 
 3. Also modify the baseDir and destDir variables to control where you want to save the PDFs.
 
-Note that there is also a standalone test script, which takes no parameters. It would need all the variables modified.
+Note that there are also standalone test script for both the basic PdfMerge cmdlet
+and the recursive version, which take no parameters. They would need all the variables modified.
 
 Usage
 =====
@@ -51,7 +54,6 @@ Known Issues
 ============
 
 * May not work with extremely long paths (need to test)
-* Some underlying code (not mine) calls an AddLog cmdlet that may not exist on your machine. It will throw an error per PDF to the PS command line. This is harmless, I think - probably just happens if you don't have Visual Studio.
 
 Todo
 ====
